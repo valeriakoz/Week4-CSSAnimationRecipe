@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200;700&family=Playfair+Display:wght@600&display=swap');
+
+
+body {
+    background-color: rgba(35, 52, 63, 0.89);
+    background-image: url(../img/background.png);
+    animation: body;
+    animation-duration: 15s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes body {
+    0%   {background-color: rgba(35, 52, 63, 0.89)}
+    25%   {background-color: rgba(39, 60, 75, 0.89)}
+    50%   {background-color: rgba(35, 42, 63, 0.89)}
+    75%   {background-color: rgba(35, 62, 63, 0.89)}
+    100%   {background-color: rgba(35, 52, 63, 0.89)}
+}
+
+
+.heading {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    position: relative;
+    animation: heading;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+        
+}
+
+@keyframes heading {
+    0%{top: -250px}
+    100%{top: 0px}
+}
+
+
+.subheading {
+    color: white;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    animation: subheading;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes subheading {
+    0% {left: -1000px;}
+    100% {left: 0;}
+
+}
+
+.second-subheading {
+    color: white;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    animation: second-subheading;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    
+}
+
+@keyframes second-subheading {
+    0% {left: -1000px;}
+    100% {left: 0;}
+
+}
+
+
+.ingredients {
+    opacity: 0;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Onest', sans-serif;
+    position: relative;
+    animation: ingredients;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ingredients {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+}
+
+
+.ingredients-table {
+    margin: 10px;
+    min-width: 350px;
+       
+}
+
+.instructions {
+    opacity: 0;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Onest', sans-serif;
+    animation: instructions;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes instructions {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+}
+
+.instructions ol {
+    width: 75%;
+    font-weight: 700;
+    margin-left: 0 auto;
+}
+
+.cooking-method {
+    font-weight: 200;
+}
+.recipe-source {
+    font-family: 'Onest', sans-serif;
+    color: aliceblue;
+    margin-left: 475px;
+        
+}
+
+.horizontal-line {
+    opacity: 20%;
+}
+
+.footer {
+    font-family: 'Onest', sans-serif;
+    color: aliceblue;
+}
+
+.food-pic {
+        padding-left: 510px;
+        
+}
+
